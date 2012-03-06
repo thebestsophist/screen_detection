@@ -1,6 +1,6 @@
 <?php
 
-Class Extension_ScreeDetection extends Extension {
+Class Extension_Screen_Detection extends Extension {
 
 	public function about() {
     	return array(
