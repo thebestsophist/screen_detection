@@ -9,7 +9,7 @@ Class Extension_Screen_Detection extends Extension {
     			'name'	=> 'Enguin Design',
     			'website' => 'http://enguindesign.com'
     		),
-    		'description'  => 'This extention adds user screen information to the symphony param pool for server-side optimizations for responsive web design.',
+    		'description'  => 'This extension adds user screen information to the symphony param pool for server-side optimizations for responsive web design.',
     		'name' 		=> 'Screen Detection',
     		'release-date' => '2012-03-06',
     		'version'  	=> '2012.03.01'
