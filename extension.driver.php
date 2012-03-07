@@ -35,19 +35,12 @@ Class Extension_Screen_Detection extends Extension {
 		);
 	}
 
-
 	public function addParam($context) {
 
 		$screen_height = !empty($_COOKIE['screen-height']) ? $_COOKIE['screen-height'] : 0;
 		$context['params']['screen-height'] = $screen_height;
 		$screen_width =  !empty($_COOKIE['screen-width']) ? $_COOKIE['screen-width'] : 0;
 		$context['params']['screen-width'] = $screen_width;
-		$screen_orientation = !empty($_COOKIE['screen-orientation']) ? $_COOKIE['screen-orientation'] : 0;
-		$context['params']['screen-orientation'] = $screen_orientation;
-		
-
 	}
-
 }
-
 ?>
