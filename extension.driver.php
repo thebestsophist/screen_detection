@@ -37,6 +37,10 @@ Class Extension_Screen_Detection extends Extension {
 
 	public function addParam($context) {
 
+		$window_height = !empty($_COOKIE['window-height']) ? $_COOKIE['window-height'] : 0;
+		$context['params']['window-height'] = $window_height;
+		$window_width =  !empty($_COOKIE['window-width']) ? $_COOKIE['window-width'] : 0;
+		$context['params']['window-width'] = $window_width;
 		$screen_height = !empty($_COOKIE['screen-height']) ? $_COOKIE['screen-height'] : 0;
 		$context['params']['screen-height'] = $screen_height;
 		$screen_width =  !empty($_COOKIE['screen-width']) ? $_COOKIE['screen-width'] : 0;
