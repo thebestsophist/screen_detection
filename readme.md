@@ -17,13 +17,16 @@ This extensions is one part of a two-part process and is best used with client-s
 
 (Note: If you are not already using jQuery you should probably use another methods to set your cookies such as http://stackoverflow.com/a/8876069)
 
-### Why not just use screen width?
+### Why keep polling for changes?
+While most users do not constantly change their browser and screen sizes, some do. This is especially important for users who plug their notebooks into external monitors and projectors.
+
+### Why not just use screen width? 
 While the maximum screen width is useful for figuring out the largest possible size people use, those with giant screens rarely set their browser windows to full width. This means that sending really large media is unnecessary and takes up bandwidth.
 
 ## Fallback
 Server-side optimization is only a part of the responsive web design toolkit. You will still want to use client-side javascript for user agent changes that take place (eg resizing the window). If you are using Modernizr (modernizr.com), you can use js/script.js as a foundation for writing client-side responsive javascript.
 
-## How you (probably) shouldn't use this extension
+## How you (probably) shouldn't use this extension.
 While this extension (sort of) gives you the ability to deliver content based on device, you should not use it to dumb down your content for smaller devices. Instead, build your design and content around mobile-first principles and work your way up to larger screens.
 
 ## License
