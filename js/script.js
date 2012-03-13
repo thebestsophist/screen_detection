@@ -35,3 +35,18 @@ if (Modernizr.mq('only screen and min-width: 960px)')) {
 
 
 }
+
+/* High pixel density */
+if (window.devicePixelRatio >= 1.5) {
+
+}
+
+/* Portrait orientation */
+if (window.orientation == 0 || 180) {
+
+}
+
+/* Landscape orientation */
+if (window.orientation == 90 || 240) {
+
+}
