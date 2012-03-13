@@ -47,7 +47,7 @@ Class Extension_Screen_Detection extends Extension {
 		$context['params']['screen-width'] = $screen_width;
 		$pixel_density = !empty($_COOKIE['pixel-density']) ? $_COOKIE['pixel-density'] : 1;
 		$context['params']['pixel-density'] = $pixel_density;
-		$screen_orientation = !empty($_COOKIE['screen-orientation']) ? $_COOKIE['screen-orientation'] : 1;
+		$screen_orientation = !empty($_COOKIE['screen-orientation']) ? $_COOKIE['screen-orientation'] : 0;
 		$context['params']['screen-orientation'] = $screen_orientation;		
 	}
 }
