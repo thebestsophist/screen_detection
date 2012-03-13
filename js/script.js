@@ -32,8 +32,6 @@ if (Modernizr.mq('only screen and (min-width: 768px) and (max-width: 960px)')) {
 /* Anything > 60em */
 if (Modernizr.mq('only screen and min-width: 960px)')) {
 
-
-
 }
 
 /* High pixel density */
