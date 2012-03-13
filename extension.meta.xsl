@@ -10,5 +10,6 @@
 	</authors>
 	<releases>
 		<release version="2012.03.01" date="2012-03-07"/>
+		<release version="2012.03.02" date="2012-03-13"/>
 	</releases>
 </extension>

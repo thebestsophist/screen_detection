@@ -1,6 +1,8 @@
 # Screen detection
 
-This extension adds fields for the user agent browser window size to the param pool. The goal is to deliver optimized media sizes in responsive layouts similar to https://github.com/filamentgroup/Responsive-Images.
+Version: 2012.03.02
+
+This extension adds fields for the user agent's browser window properties to the param pool so you can deliver optimized media sizes in responsive layouts similar to https://github.com/filamentgroup/Responsive-Images.
 
 ## Requirements
 - jQuery (though you could get around it if you wanted)
@@ -13,7 +15,7 @@ This extension adds fields for the user agent browser window size to the param p
 4. You're done!.
 
 ## How it works
-This extensions is one part of a two-part process and is best used with client-side javascript to deliver optimized media and code for each medium. `js/script.js` is an example for using Modernizr for using javascript media queries.  `js/plugin.js` polls the width of the window and the screen whenever the browser is resized and saves the sizes to four cookies: `window-width` `window-height` `screen-width`  and `screen-height` which are added to your param pool during the next page request. From there you can use them to set choose-when-otherwise conditions to deliver optimized media and code for a particular window size.
+This extensions is one part of a two-part process and is best used with client-side javascript to deliver optimized media and code for each medium. `js/script.js` is an example for using Modernizr for javascript media queries.  `js/plugin.js` polls the width of the window and the screen whenever the browser is resized and saves the sizes to six cookies: `window-width` `window-height` `screen-width` `screen-height` `pixel-density` and `pixel-density` which are added to your param pool at the next page request. From there you can use them to set choose-when-otherwise conditions to deliver optimized media and code for paticular screen properties.
 
 (Note: If you are not already using jQuery you should probably use another methods to set your cookies such as http://stackoverflow.com/a/8876069)
 
