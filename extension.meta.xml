@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<extension id="https://github.com/thebestsophist/Screen-Detection-Extension" status="experimental" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+<extension id="Screen_Detection_Extension">
 	<name>Screen Detection Extension</name>
 	<description>This extension adds user screen information to the symphony param pool for server-side optimizations for responsive web design.</description>
 	<repo type="github">https://github.com/thebestsophist/Screen-Detection-Extension</repo>
+	<repo type="gitorious">git://git.enguin.com/symphony-screen-detection-extension/screen_detection.git</repo>
 	<authors>
 		<author>
 			<name github="thebestsophist" symphony="thebestsophist">Bernard Y</name>
