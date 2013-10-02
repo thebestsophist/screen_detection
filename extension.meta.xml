@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<extension id="Screen_Detection" status="experimental" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+<extension id="screen_detection" status="experimental" xmlns="http://symphony-cms.com/schemas/extension/1.0">
 	<name>Screen Detection</name>
 	<description>This extension adds user screen information to the symphony param pool for server-side optimizations for responsive web design.</description>
 	<repo type="github">https://github.com/thebestsophist/screen_detection</repo>
@@ -14,6 +14,9 @@
 		<release version="2012.03.02" date="2012-03-13" />
 		<release version="2012.03.03" date="2012-05-09" min="2.2.3" max="2.3">
 			* Added version requirements. No functional changes.
+		</release>
+		<release version="2013.10.04 date="2013-10-02" min="2.2.3" max="2.3">
+			* Updating broken extension id (per http://www.getsymphony.com/discuss/thread/103681/1/#position-5)
 		</release>
 	</releases>
 </extension>
